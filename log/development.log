@@ -8343,3 +8343,1140 @@ Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.6ms | Allocations: 5065)
   [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
   [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
   [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+Started GET "/projects" for ::1 at 2020-06-08 09:50:53 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:50:53 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:50:53 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as */*
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (4.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 5.0ms | Allocations: 7739)
+
+
+Completed 200 OK in 17ms (Views: 8.3ms | ActiveRecord: 7.4ms | Allocations: 13371)
+
+
+Completed 200 OK in 25ms (Views: 3.5ms | ActiveRecord: 18.8ms | Allocations: 19195)
+
+
+Started GET "/users" for ::1 at 2020-06-08 09:52:51 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:52:51 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:52:51 -0400
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mStep Load (1.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 1.0ms | Allocations: 1496)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.2ms | Allocations: 2977)
+
+
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 1.4ms | Allocations: 5505)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:52:54 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:52:54 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:52:54 -0400
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms | Allocations: 1283)
+
+
+  [1m[36mStep Load (2.3ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.6ms | Allocations: 2936)
+
+
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 2.3ms | Allocations: 5936)
+
+
+Started GET "/users" for ::1 at 2020-06-08 09:53:01 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:01 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:53:01 -0400
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.1ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.4ms | Allocations: 1998)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 1.1ms | Allocations: 5237)
+
+
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.7ms | Allocations: 5362)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:53:05 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:53:05 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:05 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.6ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 2125)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms | Allocations: 1841)
+
+
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.6ms | Allocations: 5473)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:53:09 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:53:09 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:09 -0400
+Processing by ProjectsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1876)
+
+
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mStep Load (1.7ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.4ms | Allocations: 2603)
+
+
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.7ms | Allocations: 4713)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 09:53:11 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:53:11 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:53:11 -0400
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mStep Load (0.9ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 2640)
+
+
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.9ms | Allocations: 5157)
+
+
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms | Allocations: 5167)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:53:13 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:13 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:53:13 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.9ms | Allocations: 1168)
+
+
+  [1m[36mStep Load (1.5ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.5ms | Allocations: 4963)
+
+
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.3ms | Allocations: 5362)
+
+
+Started GET "/users" for ::1 at 2020-06-08 09:53:44 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:53:44 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:44 -0400
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.7ms | Allocations: 2223)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.9ms | Allocations: 2111)
+
+
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 1.4ms | Allocations: 5365)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:53:49 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:53:49 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:49 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.8ms | Allocations: 1823)
+
+
+  [1m[36mStep Load (2.9ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms | Allocations: 2090)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 2.9ms | Allocations: 5668)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:53:54 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:54 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:53:54 -0400
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.1ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.8ms | Allocations: 1837)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 3063)
+
+
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.1ms | Allocations: 5362)
+
+
+Started GET "/users" for ::1 at 2020-06-08 09:53:59 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:53:59 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:53:59 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 1170)
+
+
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mStep Load (1.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 1.2ms | Allocations: 2939)
+
+
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.4ms | Allocations: 5469)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:54:04 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:54:04 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:54:04 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.1ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.7ms | Allocations: 1376)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 1.1ms | Allocations: 4335)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 1.1ms | Allocations: 5540)
+
+
+Started GET "/users" for ::1 at 2020-06-08 09:54:40 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:54:40 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:54:40 -0400
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mStep Load (1.0ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.0ms | Allocations: 4015)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.8ms | Allocations: 5042)
+
+
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.0ms | Allocations: 5362)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:56:39 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:56:39 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:56:39 -0400
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mStep Load (1.7ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 2756)
+
+
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.7ms | Allocations: 5261)
+
+
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.6ms | Allocations: 1463)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 09:56:49 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:56:49 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:56:49 -0400
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mStep Load (1.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 1.2ms | Allocations: 4647)
+
+
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.6ms | Allocations: 4755)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.5ms | Allocations: 5505)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:56:57 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:56:57 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:56:57 -0400
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 1.0ms | Allocations: 1285)
+
+
+  [1m[36mStep Load (2.3ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 2.3ms | Allocations: 5413)
+
+
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.9ms | Allocations: 5365)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:57:05 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:57:05 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:57:05 -0400
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms | Allocations: 1837)
+
+
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 2851)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.2ms | Allocations: 5557)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:57:08 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:57:08 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:57:08 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Processing by UsersController#index as */*
+  [1m[36mStep Load (1.9ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 2182)
+
+
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.9ms | Allocations: 4459)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 4904)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 09:57:12 -0400
+Started GET "/steps" for ::1 at 2020-06-08 09:57:12 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:57:12 -0400
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 2851)
+
+
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.8ms | Allocations: 1837)
+
+
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.2ms | Allocations: 5150)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 09:58:12 -0400
+Started GET "/projects" for ::1 at 2020-06-08 09:58:12 -0400
+Started GET "/users" for ::1 at 2020-06-08 09:58:12 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.8ms | Allocations: 1545)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.3ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.7ms | Allocations: 2307)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 1.3ms | Allocations: 6000)
+
+
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7957667121581468760)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateActiveStorageTables (20200608140443)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.6ms)[0m  [1m[35mCREATE TABLE "active_storage_blobs" ("id" bigserial primary key, "key" character varying NOT NULL, "filename" character varying NOT NULL, "content_type" character varying, "metadata" text, "byte_size" bigint NOT NULL, "checksum" character varying NOT NULL, "created_at" timestamp NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_active_storage_blobs_on_key" ON "active_storage_blobs"  ("key")[0m
+  [1m[35m (8.1ms)[0m  [1m[35mCREATE TABLE "active_storage_attachments" ("id" bigserial primary key, "name" character varying NOT NULL, "record_type" character varying NOT NULL, "record_id" bigint NOT NULL, "blob_id" bigint NOT NULL, "created_at" timestamp NOT NULL, CONSTRAINT "fk_rails_c3b3935057"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX  "index_active_storage_attachments_on_blob_id" ON "active_storage_attachments"  ("blob_id")[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_active_storage_attachments_uniqueness" ON "active_storage_attachments"  ("record_type", "record_id", "name", "blob_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200608140443"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7957667121581468760)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users" for ::1 at 2020-06-08 10:21:46 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:21:46 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:21:46 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as */*
+  [1m[35m (5.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (8.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Processing by StepsController#index as */*
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mProject Load (2.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 25ms (Views: 6.6ms | ActiveRecord: 14.7ms | Allocations: 12900)
+
+
+  [1m[36mStep Load (5.1ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 3.7ms | ActiveRecord: 11.2ms | Allocations: 12356)
+
+
+Completed 200 OK in 45ms (Views: 21.8ms | ActiveRecord: 10.8ms | Allocations: 18815)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 10:21:57 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:21:57 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:21:57 -0400
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.5ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mProject Load (1.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.3ms | Allocations: 1892)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.5ms | Allocations: 5484)
+
+
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 1.7ms | Allocations: 5419)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:22:00 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:22:00 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:22:00 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.0ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.8ms | Allocations: 1205)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 1.0ms | Allocations: 4755)
+
+
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.8ms | Allocations: 5361)
+
+
+Started GET "/users" for ::1 at 2020-06-08 10:22:51 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:22:51 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:22:51 -0400
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.0ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.7ms | Allocations: 1479)
+
+
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.0ms | Allocations: 5029)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 5557)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:23:02 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:23:02 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:23:02 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.8ms | Allocations: 1357)
+
+
+  [1m[36mStep Load (1.5ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.5ms | Allocations: 4967)
+
+
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 1.1ms | Allocations: 5345)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 10:23:09 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:23:09 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:23:09 -0400
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mStep Load (1.0ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1726)
+
+
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 1.0ms | Allocations: 4875)
+
+
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.8ms | Allocations: 5167)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:24:45 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:24:45 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:24:45 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mStep Load (1.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 1.2ms | Allocations: 1391)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.7ms | Allocations: 2761)
+
+
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.2ms | Allocations: 5421)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:25:19 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:25:19 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:25:19 -0400
+Processing by ProjectsController#index as */*
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Processing by StepsController#index as */*
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Processing by UsersController#index as */*
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1838)
+
+
+  [1m[36mStep Load (1.6ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.6ms | Allocations: 4685)
+
+
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 4477)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 10:25:51 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:25:51 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:25:51 -0400
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mStep Load (0.8ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.6ms | Allocations: 4409)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.8ms | Allocations: 4014)
+
+
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.8ms | Allocations: 5365)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:25:52 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:25:52 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:25:52 -0400
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (0.8ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.0ms | Allocations: 2302)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 2872)
+
+
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.8ms | Allocations: 5345)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:26:44 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:26:44 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:26:44 -0400
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.7ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.0ms | Allocations: 2236)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms | Allocations: 1823)
+
+
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 1.7ms | Allocations: 5362)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:26:54 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:26:54 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:26:54 -0400
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (1.3ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.8ms | Allocations: 1837)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms | Allocations: 2223)
+
+
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.3ms | Allocations: 5309)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:27:26 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:27:26 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:27:26 -0400
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mStep Load (0.7ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Processing by UsersController#index as */*
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.7ms | Allocations: 4148)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.3ms | Allocations: 4313)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 3.3ms | Allocations: 4903)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:27:58 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:27:58 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:27:58 -0400
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Processing by UsersController#index as */*
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1469)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.2ms | Allocations: 4716)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 4035)
+
+
+Started GET "/users" for ::1 at 2020-06-08 10:29:15 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:29:15 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:29:15 -0400
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Processing by StepsController#index as */*
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.7ms | Allocations: 2137)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mStep Load (1.5ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 1.0ms | Allocations: 2414)
+
+
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.5ms | Allocations: 4903)
+
+
+Started GET "/steps" for ::1 at 2020-06-08 10:29:27 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:29:27 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:29:27 -0400
+Processing by StepsController#index as */*
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+  [1m[36mStep Load (1.0ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 1.0ms | Allocations: 4202)
+
+
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms | Allocations: 4397)
+
+
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.7ms | Allocations: 5362)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:29:31 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:29:31 -0400
+Started GET "/users" for ::1 at 2020-06-08 10:29:31 -0400
+Processing by StepsController#index as */*
+Processing by ProjectsController#index as */*
+Processing by UsersController#index as */*
+  [1m[36mStep Load (1.9ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[36mProject Load (1.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 1.1ms | Allocations: 1735)
+
+
+  ↳ app/controllers/users_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 1.9ms | Allocations: 5070)
+
+
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.9ms | Allocations: 5309)
+
+
+Started GET "/users" for ::1 at 2020-06-08 10:29:32 -0400
+Started GET "/projects" for ::1 at 2020-06-08 10:29:32 -0400
+Started GET "/steps" for ::1 at 2020-06-08 10:29:32 -0400
+Processing by UsersController#index as */*
+Processing by ProjectsController#index as */*
+Processing by StepsController#index as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+  [1m[36mStep Load (0.7ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 1.5ms | Allocations: 2030)
+
+
+  [1m[36mProject Load (1.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/steps_controller.rb:4:in `index'
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.7ms | Allocations: 5113)
+
+
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.9ms | Allocations: 5469)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:53:28 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.13ms)
+Completed 200 OK in 27ms (Views: 18.9ms | ActiveRecord: 3.2ms | Allocations: 8998)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:56:23 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.58ms)
+Completed 200 OK in 15ms (Views: 7.0ms | ActiveRecord: 3.3ms | Allocations: 7769)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:56:47 -0400
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mStep Load (0.3ms)[0m  [1m[34mSELECT "steps".* FROM "steps" WHERE "steps"."project_id" = $1[0m  [["project_id", 6]]
+[active_model_serializers]   ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mStep Load (0.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps" WHERE "steps"."project_id" = $1[0m  [["project_id", 7]]
+[active_model_serializers]   ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (39.79ms)
+Completed 200 OK in 59ms (Views: 49.6ms | ActiveRecord: 6.2ms | Allocations: 23259)
+
+
+Started GET "/projects" for ::1 at 2020-06-08 10:57:58 -0400
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mStep Load (0.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps" WHERE "steps"."project_id" = $1[0m  [["project_id", 6]]
+[active_model_serializers]   ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mStep Load (0.3ms)[0m  [1m[34mSELECT "steps".* FROM "steps" WHERE "steps"."project_id" = $1[0m  [["project_id", 7]]
+[active_model_serializers]   ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (16.19ms)
+Completed 200 OK in 26ms (Views: 17.6ms | ActiveRecord: 5.7ms | Allocations: 17513)
+
+
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 17]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 18]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 19]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 20]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (3.0ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3[0m  [["record_id", 6], ["record_type", "Project"], ["name", "images"]]
+  [1m[36mProject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3[0m  [["record_id", 7], ["record_type", "Project"], ["name", "images"]]
+  [1m[36mProject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mStep Load (0.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 69], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.4ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 69]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 70], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 70]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 71], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.3ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 71]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 72], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 72]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 73], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 73]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 74], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 74]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 75], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.3ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 75]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 76], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.3ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 76]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 77], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.2ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 77]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 78], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 78]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 79], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 79]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 80], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.2ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 80]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 81], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 81]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 82], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.2ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 82]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 83], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 83]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 84], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 84]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 85], ["record_type", "Step"], ["name", "image"], ["LIMIT", 1]]
+  [1m[36mStep Destroy (0.1ms)[0m  [1m[31mDELETE FROM "steps" WHERE "steps"."id" = $1[0m  [["id", 85]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Nadia"], ["created_at", "2020-06-08 14:59:14.321895"], ["updated_at", "2020-06-08 14:59:14.321895"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Robert"], ["created_at", "2020-06-08 14:59:14.324790"], ["updated_at", "2020-06-08 14:59:14.324790"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Onie"], ["created_at", "2020-06-08 14:59:14.327278"], ["updated_at", "2020-06-08 14:59:14.327278"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Marcus"], ["created_at", "2020-06-08 14:59:14.329692"], ["updated_at", "2020-06-08 14:59:14.329692"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "Nadia"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[36mProject Create (0.2ms)[0m  [1m[32mINSERT INTO "projects" ("title", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["user_id", 21]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 1], ["heading", "Introduction: Gandalf the Grey's Wizard Hat"], ["content", "Let me start by saying I am a big fan of Lord of the Rings -- and all things Tolkien related. I still remember the first time I picked up a copy of The Hobbit in my elementary school library as a fifth-grader, and how many of my teachers and older family members told me I was in for a real treat. One of the most beloved characters in The Hobbit and Lord of the Rings is Gandalf the Grey, later Gandalf the White -- although \"many are his names in many countries.\" When Tolkien first mentions Gandalf in the first chapter of The Hobbit, he describes Gandalf this way: \"All that the unsuspecting Bilbo saw that morning was an old man with a staff. He had a tall pointed blue hat, a long grey cloak, a silver scarf over which his long white beard hung down below his waist, and immense black boots.\" ...So a little different from how the wonderful Sir Ian McKellen portrayed Gandalf in the films. Both versions, in my opinion, are completely valid, however. Tolkien's inspiration for Gandalf can be traced to a postcard he said he bought while on holiday in Switzerland (although the origins of the postcard have been debated). The postcard is called Der Berggeist (German for \"the mountain spirit\"). The postcard was a reproduction of a painting of an old man with a white beard sitting under a tree in the mountains. On the back of the postcard, Tolkien wrote \"The origin of Gandalf.\" So with all that being said, if you can get ahold of some blue-grey felt, as opposed to the dark grey felt I used, that would be more true to the books as well as Tolkien's original vision of Gandalf. But I think a medium-dark grey felt works just fine. Okay, let's get started! For this project, you'll need:  "], ["created_at", "2020-06-08 14:59:14.340539"], ["updated_at", "2020-06-08 14:59:14.340539"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 2], ["heading", "Supplies:"], ["content", "Two yards of grey felt. Cotton batting. Matching thread. Sewing machine. Scissors. Marker. String/yarn. Polyfil stuffing. Sewing needle"], ["created_at", "2020-06-08 14:59:14.345028"], ["updated_at", "2020-06-08 14:59:14.345028"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 3], ["heading", "Step 1: Make a Circle"], ["content", "This is the felt I used -- two packages, each containing one 36\" x 36\" felt piece, which is one square yard. If you were making a hat for a child, you might be able to get away with only using one yard, but I was not able to cut out two circles from one yard. I'm happy I thought to buy two. Tie a piece of yarn to a marker and cut it so it's 10 inches long, from the marker to the end. Make a dot in the center of the felt and then, while holding the end of the yarn in between your thumb and index finger in your non-dominant hand, use your dominant hand to draw a circle. This is essentially a very simple compass and how to make a ~20\" circle. It might not end up exactly 20\" but that's okay."], ["created_at", "2020-06-08 14:59:14.349177"], ["updated_at", "2020-06-08 14:59:14.349177"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 4], ["heading", "Step 2: Cut Another Circle"], ["content", "Cut out the 20\" circle you just drew. Place that circle on top of more felt, pin it, and cut that out too. So now you should have two 20\" circles. With the string of yarn still on your marker, cut the length of the string so it's 4.5\" long, from marker to end. Using the same method you used to draw a circle in the last step, draw a smaller circle in the center of the felt circle. This inner circle will roughly be about 9\"."], ["created_at", "2020-06-08 14:59:14.353380"], ["updated_at", "2020-06-08 14:59:14.353380"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 5], ["heading", "Step 3: Cut the Brim Pieces"], ["content", "Cut a slit to get to the circle and cut it out, leaving it in one piece so you can use it later. Now cut a wedge from the donut shape. But before you cut, you can overlap the pieces and test it on your head to make sure it will still fit. Cutting out this wedge will allow the brim of the hat to have a downward, outward slope, similar to Gandalf's hat's brim. The wedge I cut out from my brim was about 5\" at the widest part, but yours may (and probably will?) differ, as people have different sized heads. So just make sure you test it on your own head before cutting. Place right sides together and pin -- do that for both donut shapes."], ["created_at", "2020-06-08 14:59:14.357495"], ["updated_at", "2020-06-08 14:59:14.357495"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 6], ["heading", "Step 4: Cut the Batting"], ["content", "Cut a piece of cotton batting (this is the stuff I used, but any kind will do) in the same shape as the felt brim pieces. To do this, all I did was fold the batting in half, place one of the brim pieces (that's also folded in half) on top, and trace around it with a marker. Then I cut it out slightly smaller than what I had drawn, placed the right sides together, and pinned. So now you should have two felt brim pieces and one cotton batting brim piece. Now head to your sewing machine!"], ["created_at", "2020-06-08 14:59:14.361600"], ["updated_at", "2020-06-08 14:59:14.361600"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 7], ["heading", "Step 5: Sew the Brim"], ["content", "With the right sides pinned together, sew on your machine, leaving about 3/4\" seam allowance. Now we have a closed donut shape again, but with a slope. Do this for all three brim pieces."], ["created_at", "2020-06-08 14:59:14.365634"], ["updated_at", "2020-06-08 14:59:14.365634"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 8], ["heading", "Step 6: Sew the Brim, Cont."], ["content", "Place the two felt donut pieces right sides together and sew around the perimeter. Snip around the edge with a pair of scissors just up to the seam you just sewed, but not further. Turn right side out."], ["created_at", "2020-06-08 14:59:14.377448"], ["updated_at", "2020-06-08 14:59:14.377448"]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 9], ["heading", "Step 7: Sew the Brim, Cont."], ["content", "Sew the cotton batting in the same manner and insert it in between the two felt pieces. The cotton batting, while not entirely necessary, will stabilize the brim more and make it less flimsy."], ["created_at", "2020-06-08 14:59:14.385931"], ["updated_at", "2020-06-08 14:59:14.385931"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 10], ["heading", "Step 8: Sew the Brim, Cont."], ["content", "Sew a top stitch around the perimeter of the brim, and then again around the inside of the brim."], ["created_at", "2020-06-08 14:59:14.390485"], ["updated_at", "2020-06-08 14:59:14.390485"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 11], ["heading", "Step 9: Make the Pointy Bit"], ["content", "To make the conical part of the hat, take out a piece of felt that's at least 25\" by 25\" and fold it in half. Measure 21\" and mark a dot with a marker. Move the measuring tape over, keeping it at the same spot where you marked the dot, so it makes a triangular shape, and draw a straight line. Cut it out. This will be a little too big for the hat, but it's a good start."], ["created_at", "2020-06-08 14:59:14.394656"], ["updated_at", "2020-06-08 14:59:14.394656"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 12], ["heading", "Step 10: Sew the Hat"], ["content", "Fold the brim in half. Match up the triangular top part of the hat to the brim where it will eventually be sewn. This should give you a rough idea of where to sew. Mark this point with your marker and cut a straight line from that point to the pointy part of the triangle."], ["created_at", "2020-06-08 14:59:14.398757"], ["updated_at", "2020-06-08 14:59:14.398757"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 13], ["heading", "Step 11: Sew the Hat, Cont."], ["content", "Leaving a 1/2\" seam allowance, sew the cone part of the hat. Turn it right side out. I used a chopstick to help me turn the more difficult parts right side out, but a knitting needle or a crochet hook might work too."], ["created_at", "2020-06-08 14:59:14.402940"], ["updated_at", "2020-06-08 14:59:14.402940"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 14], ["heading", "Step 12: Sew the Brim to the Hat"], ["content", "Place the cone part inside the brim part (right sides together) and pin them together. I chose to hand sew at this point, just because I don't even think my machine could fit four thick layers like this. All I did was use a small running stitch and securely knotted it once I made it all the way around."], ["created_at", "2020-06-08 14:59:14.407002"], ["updated_at", "2020-06-08 14:59:14.407002"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 15], ["heading", "Step 13: Stuff the Hat"], ["content", "At this point, the hat looks pretty silly. So to make it resemble Gandalf's hat a little bit more, we need to stuff it. I probably used about five or so large handfuls of poly-fil stuffing, but you can stuff it however much you want. You don't want stuffing to just fall out of the hat, (and I forgot to take a photo of this part) so you can use one of the circle pieces you cut from the \"donut\" pieces earlier and hand-sew that inside to keep the stuffing from falling out. Just make sure it's far enough inside that the hat is still able to fit on your head."], ["created_at", "2020-06-08 14:59:14.411108"], ["updated_at", "2020-06-08 14:59:14.411108"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 16], ["heading", "Step 14: Scrunch at the Seams"], ["content", "Using a needle and thread, sew at various parts of the back of the hat. Gather the thread tightly so it makes a slight curvature in the cone part of the hat. Do this all along the back seam. You can even do a little bit on the other side to make it curve slightly upwards. Just make sure to knot the thread when you're finished so nothing comes undone."], ["created_at", "2020-06-08 14:59:14.415099"], ["updated_at", "2020-06-08 14:59:14.415099"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "Gandalf the Grey's Wizard Hat"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 8], ["order", 17], ["heading", "Step 15: Finished!"], ["content", "And that's all it takes to make a hat similar to Gandalf the Grey's. I love it. I've been wearing it all around the house just for fun.  I think it would do well for a Gandalf cosplay, or, in other colors, it would make a good hat for a general, generic wizard/witch costume."], ["created_at", "2020-06-08 14:59:14.419199"], ["updated_at", "2020-06-08 14:59:14.419199"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "Onie"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mProject Create (0.3ms)[0m  [1m[32mINSERT INTO "projects" ("title", "user_id") VALUES ($1, $2) RETURNING "id"[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["user_id", 23]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 1], ["heading", "Introduction:"], ["content", "Just the other day, I was in the middle of a very important phone call when my banana phone stopped working! I was so frustrated. That’s the last time I miss a call because of that stupid phone! (In hindsight, I may have gotten a little too angry in the moment, see pics)  It was time for an upgrade. Enter the wireless tin-can telephone! The all new and improved gag phone, for all my fake communication needs!   Here’s how I built it!"], ["created_at", "2020-06-08 14:59:14.427594"], ["updated_at", "2020-06-08 14:59:14.427594"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 2], ["heading", "Step 1: Tools and Materials"], ["content", "For this project, you’re going to need quite a few electronics, and a couple tools. \n  Tools - Drill w/bits, Tin Snips, Hot Glue Gun, Needle Nose Pliers, Ball-peen Hammer\n  Materials - (Two of all of These) - DFDuino Uno R3, Gravity Expansion Shield(optional), Analog Sound Sensor, 386 AMP Audio Amplifier, 6AA Battery Holder w/ DC Barrel Jack, Six AA batteries, NRF24L01+PA+LNA With Antenna, Tactile Button, Aluminum Coffee Can, Jumper Wires\n  "], ["created_at", "2020-06-08 14:59:14.431801"], ["updated_at", "2020-06-08 14:59:14.431801"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 3], ["heading", "Step 2: Prepping the Cans"], ["content", "Before we can wire up the electronics, we’ll need to prep the cans. To do this, we will be drilling two holes, one for the antenna, and one for the button.  I started with the antenna hole. First, I placed the antenna board inside the tin can, to measure how far from the side the hole would need to be. Then, using my finger to note the ridge, I marked the hole with an Whiteboard marker, so that I could wipe them off later. Then, using a tap, I put a small indentation where I was going to drill. This will help guide the drill in the next step.   Depending on the antenna you use, you may need a smaller/larger hole. So what I did to find the right size, was compared the threads on the antenna to the drill bit sizes. Alright, SAFETY GLASSES ON!  Once you’ve picked a size and marked out the hole, drill into the can, go at a high speed, but don’t push too hard. Because of how flimsy the tin can is, it will usually shear, so watch for sharp metal. Use tins nips and pliers to clean up this edge.   Then it’s time for the button hole. This one’s a little different.   First, I unscrewed the plastic “nut” from the button. Then I placed the nut onto the location I wanted the hole, and marked the inside diameter. Then I drilled five holes, and used tin snips to clean the material out and form it into a circle. Mark the hole, tap it, and drill.  STOP! It's HAMMERTIME! After this, I used a hammer and pliers to knock in the metal tabs and bend them down.  Please refer to the images for a better idea of how I did this. I’ve provided a shoddy diagram that should be able to help you out.   Once that’s done, you can screw in the antenna and the button. Again, be careful of any sharp metal bits!"], ["created_at", "2020-06-08 14:59:14.436292"], ["updated_at", "2020-06-08 14:59:14.436292"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 4], ["heading", "Step 3: Hot Glue Gun Time!"], ["content", "Now let’s glue in the components! First, plug in your hot glue gun and wait for it to heat up.   *Jeopardy theme begins to play...* Then, use hot glue to secure the antenna board against the can. I also suggest coating the metal part of the antenna that sticks through the can with glue, so it won’t ground out to the can.   Glue the Arduino Uno to the bottom of the can, and then attach the battery pack. This will be the heaviest part, I suggest apply glue to the edges and then placing it where you want the can to rest (so the antenna points upwards). The battery pack will always be the natural center of gravity for the can.  I glued the speaker on one side of the battery pack, and the microphone on the other. (Refer to the pictures) This was primarily for aesthetic purposes, and wire management.  Make sure to use lots of glue so that none of the pins ground to the tin can."], ["created_at", "2020-06-08 14:59:14.440355"], ["updated_at", "2020-06-08 14:59:14.440355"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 5], ["heading", "Step 4: Wiring the Circuit"], ["content", "Once everything is securely glued in, it’s time for wiring! Use the provided schematic to connect all the jumpers to their appropriate pins. I’ll also provide the pin-outs below: (Note, this is for the Gravity Expansion HAT)  Antenna Board:  Analog Sound Sensor: Audio Amp:  Switch:  Here’s a brief explanation of the circuit (to hopefully benefit anyone using a different board). Because of the RF24Audio Library we are using, there is a very specific pinout for the microphone, speaker, switch, and antenna: The Microphone signal pin will always go on A0 pin.  The Switch (for switching to transmission mode) is always the A1 pin.  The Audio Amplifier I’m using doesn't matter where it’s plugged in, as long as it has power. What matters is the wire you are using for audio transmission, which by default will be pins 9 and 10 (for left and right audio).  The Antenna pins CE and CSE are always connected to pins 7 and 8 respectively (which is what allows both directions of radio signal)   Hopefully this information will help you wire this circuit on any board."], ["created_at", "2020-06-08 14:59:14.444459"], ["updated_at", "2020-06-08 14:59:14.444459"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 6], ["heading", "Step 5: Pushing the Code"], ["content", "It's time to push some code! The program for this project is SUPER simple thanks to the RF24Audio Library. It’s literally not even 10 lines of code! Take a look: I won’t be explaining how it works here, but if you’d like to learn more about Arduino IDE and what this code means, check out this link. You'll also need to install the RF24 and RF24Audio Library as well, which you can download here. Once you’ve got the Arduino IDE installed, download the Arduino program provided, and open the code. Look under the Tools drop-down. Make sure “Programmer” is set to AVR ISP, and Board is set to Arduino UNO (or whatever board you are using). Also confirm that you are on the right Port (it should say “Arduino Uno on COM#”)  Now we are ready to push the code. Plug in a USB cable to the Arduino and the computer, and click the Upload arrow in the top left of the IDE. The code should upload and you may hear a quiet buzz.  If you are getting these results, then the program should be running correctly and everything should be connected the right way."], ["created_at", "2020-06-08 14:59:14.454863"], ["updated_at", "2020-06-08 14:59:14.454863"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.3ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 7], ["heading", "Step 6: Testing It Out"], ["content", "To test it out, you’ll need to turn both cans on. Press the button down on one can, and make some noise into the microphone. Can you hear audio coming from the other can? Try the same thing on the other can. Hear anything?  If so, it works and you’re done! Note: If you’re getting interference or buzzing, check for grounding problems. Make sure none of the leads are touching the can, and that there’s plenty of glue between components. Try to avoid twisting around each other, as this will increase interference. I also suggest covering the metal part of the antenna with electrical tape to prevent it from grounding to the can.  Once you know it works, try to test the distance too; it should go up to a kilometer if there’s nothing blocking the signal!"], ["created_at", "2020-06-08 14:59:14.459219"], ["updated_at", "2020-06-08 14:59:14.459219"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."title" = $1 LIMIT $2[0m  [["title", "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mStep Create (0.2ms)[0m  [1m[32mINSERT INTO "steps" ("project_id", "order", "heading", "content", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["project_id", 9], ["order", 8], ["heading", "Step 7: Conclusion"], ["content", "Congratulations, You’ve made it to the end! Awesome job building this project!  Thank you for reading my Instructable, I hope you enjoyed watching the video and I hope you found it very entertaining.  I’d like to disclose that this project was sponsored by DFRobot, they made it possible for this project to exist by supplying all of the parts, so feel free to go give them some love!   Update: I’m entering this Instructable in the Arduino Competition, so if you enjoyed this project, please give it a vote with the orange button down below!  UpdatedUpdate: I’m also entering the Arduino Make-From-Home Contest, so I’d love if you could go show me your support on those sites as well!  Updated Update on the Previous Update: I'm also in the Hackaday.io Making Tech at Home Challenge, so go vote for it here! Follow me for more cool projects like this, and go make something! Always keep learning. :)    - Geoff M."], ["created_at", "2020-06-08 14:59:14.463389"], ["updated_at", "2020-06-08 14:59:14.463389"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/projects" for ::1 at 2020-06-08 10:59:28 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mStep Load (0.4ms)[0m  [1m[34mSELECT "steps".* FROM "steps" WHERE "steps"."project_id" = $1[0m  [["project_id", 8]]
+[active_model_serializers]   ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mStep Load (0.2ms)[0m  [1m[34mSELECT "steps".* FROM "steps" WHERE "steps"."project_id" = $1[0m  [["project_id", 9]]
+[active_model_serializers]   ↳ app/controllers/projects_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (22.51ms)
+Completed 200 OK in 41ms (Views: 29.9ms | ActiveRecord: 6.8ms | Allocations: 24248)
+
+
