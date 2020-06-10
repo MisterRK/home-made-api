@@ -9,6 +9,11 @@ class ProjectsController < ApplicationController
     project = Project.create!(project_params)
     render :json => project
   end
+
+  def show
+    project = Project.find(params[:id])
+    render :json => project
+  end
   
   
 
