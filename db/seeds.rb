@@ -15,7 +15,15 @@ User.create(name: 'Robert')
 User.create(name: 'Onie')
 User.create(name: 'Marcus')
 
-Project.create(title: "Gandalf the Grey's Wizard Hat" , user_id: User.find_by(name: 'Nadia').id)
+gandalf = Project.create(
+  title: "Gandalf the Grey's Wizard Hat", 
+  user_id: User.find_by(name: 'Nadia').id, 
+  likes: 0)
+gandalf.image.attach(
+  io: File.open('./public/gandalf_project/Gandalf1.jpg'),
+  filename: 'Gandalf1.jpg',
+  content_type: 'image/jpeg'
+  )
 
 Step.create(
   project_id: Project.find_by(title: "Gandalf the Grey's Wizard Hat").id,
@@ -117,10 +125,12 @@ Step.create(
   content: "And that\'s all it takes to make a hat similar to Gandalf the Grey\'s. I love it. I\'ve been wearing it all around the house just for fun.  I think it would do well for a Gandalf cosplay, or, in other colors, it would make a good hat for a general, generic wizard/witch costume."
 )
 
+
 # Wireless Tin-Can Telephone
 Project.create(
   title: 'How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)',
-  user_id: User.find_by(name: 'Onie').id
+  user_id: User.find_by(name: 'Onie').id,
+  likes: 0
 )
 Step.create(
   project_id: Project.find_by(title: "How to Make a Wireless Tin-Can Telephone! (Arduino Walkie Talkie)") .id,

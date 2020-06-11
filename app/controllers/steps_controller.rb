@@ -5,14 +5,33 @@ class StepsController < ApplicationController
   end
 
   def create
-    step = Step.create(step_params)
-    render :json => step
+    step=Step.new()
+    # byebug
+    step.heading=params[:heading]
+    step.content=params[:content]
+    step.order=params[:order]
+    step.project_id=params[:project_id]
+    step.image.attach(params[:image])
+    step.save()
+    render json: step
   end
 
   def proj_steps
     # byebug
     steps = Step.where(project_id: params[:id])
     render :json => steps
+  end
+
+  def update
+    step = Step.find(params[:id])
+    step.update(step_params)
+    render :json => step
+  end
+
+  def show_image
+    step = Step.find(params[:id])
+    attachment = rails_blob_path(step.image)
+    render :json => {image: attachment}
   end
 
 

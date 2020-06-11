@@ -1,5 +1,5 @@
 class Project < ApplicationRecord
   belongs_to :user
   has_many :steps
-  has_many_attached :images
+  has_one_attached :image
 end
