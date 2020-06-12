@@ -28,6 +28,10 @@ class ProjectsController < ApplicationController
     render :json => {image: attachment}
   end
   
+  def edit
+    project = Project.find(params[:id])
+    steps = Step.where()
+  end
   
 
   private
