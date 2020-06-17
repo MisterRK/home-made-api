@@ -16,6 +16,8 @@ class ProjectsController < ApplicationController
     render json: project
   end
 
+  
+
   def show
     project = Project.find(params[:id])
     render :json => project
