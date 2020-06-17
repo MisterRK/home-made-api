@@ -6,7 +6,6 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    # byebug
     project=Project.new()
     project.title=params[:title]
     project.user_id=params[:user_id]
@@ -28,9 +27,21 @@ class ProjectsController < ApplicationController
     render :json => {image: attachment}
   end
   
-  def edit
+  def update
     project = Project.find(params[:id])
-    steps = Step.where()
+    project.title = params[:title]
+    project.user_id= params[:user_id]
+    project.likes = params[:likes]
+    project.save
+
+    render :json => project
+  end
+
+  def destroy
+    project = Project.find(params[:id])
+    project.destroy()
+
+    render json: project
   end
   
 

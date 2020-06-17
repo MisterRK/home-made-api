@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get '/projects/:id/steps', to: 'steps#proj_steps'
   
   get '/projects/:id/image', to: 'projects#show_image'
+  
   get 'steps/:id/image', to: 'steps#show_image'
 end

@@ -17,9 +17,13 @@ class StepsController < ApplicationController
   end
 
   def proj_steps
-    # byebug
     steps = Step.where(project_id: params[:id])
     render :json => steps
+  end
+
+  def show
+    step = Step.find(params[:id])
+    render :json => step
   end
 
   def update

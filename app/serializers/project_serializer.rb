@@ -1,5 +1,5 @@
 class ProjectSerializer < ActiveModel::Serializer
-  attributes :id, :title, :user_id, :likes
+  attributes :id, :title, :user_id, :likes, :image_url
 
   def image
     return unless object.image.attached?
@@ -11,6 +11,6 @@ class ProjectSerializer < ActiveModel::Serializer
   end
 
   def image_url
-    url_for(object.image)
+    Rails.application.routes.url_helpers.rails_blob_path(object.image) if object.image.attachment
   end
 end
